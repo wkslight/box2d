@@ -8,6 +8,6 @@ project("box2d")
         "src/**.cpp",
     })
     includedirs({
-        "src",
         g_wkslight.workspace.libraries.projects.box2d.includedirs,
+        "src",
     })
